@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Shiba Scripts - 프리미엄 FiveM 스크립트",
+    "description": "서버를 위한 고품질 FiveM 스크립트입니다. ESX, QBCore, 독립형 스크립트로 라이선스 보호 기능이 있습니다."
+  },
+  "nav": {
+    "home": "홈",
+    "scripts": "스크립트",
+    "categories": "카테고리",
+    "support": "지원",
+    "docs": "문서",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "account": "내 계정",
+    "admin": "관리자",
+    "darkMode": "다크 모드",
+    "lightMode": "라이트 모드"
+  },
+  "home": {
+    "hero": {
+      "title": "프리미엄 FiveM 스크립트",
+      "subtitle": "FiveM 서버를 위한 고품질의 안전한 스크립트입니다. Shiba Scripts가 열정으로 제작했습니다.",
+      "cta": "스크립트 둘러보기",
+      "secondary": "문서 보기"
+    },
+    "features": {
+      "title": "Shiba Scripts를 선택해야 하는 이유는 무엇인가요?",
+      "secure": {
+        "title": "라이선스 보호",
+        "desc": "모든 스크립트는 구매를 보호하기 위해 고유한 라이선스 키 보호 기능이 있습니다."
+      },
+      "quality": {
+        "title": "프리미엄 품질",
+        "desc": "성능을 위한 최고의 관행을 따르는 깔끔하고 최적화된 코드입니다."
+      },
+      "support": {
+        "title": "24/7 지원",
+        "desc": "Discord 커뮤니티 및 지원 시스템을 통해 언제든지 도움을 받으세요."
+      },
+      "updates": {
+        "title": "무료 업데이트",
+        "desc": "모든 스크립트는 구매 후 무료 업데이트 및 개선을 받습니다."
+      }
+    },
+    "featured": {
+      "title": "추천 스크립트",
+      "viewAll": "모든 스크립트 보기"
+    },
+    "stats": {
+      "scripts": "스크립트",
+      "customers": "만족한 고객",
+      "servers": "활성 서버",
+      "support": "지원 등급"
+    }
+  },
+  "scripts": {
+    "title": "모든 스크립트",
+    "search": "스크립트 검색...",
+    "filter": "필터",
+    "sort": "정렬",
+    "sortOptions": {
+      "newest": "최신",
+      "priceAsc": "가격: 낮음에서 높음",
+      "priceDesc": "가격: 높음에서 낮음",
+      "popular": "가장 인기 있는"
+    },
+    "noResults": "조건에 맞는 스크립트를 찾을 수 없습니다.",
+    "free": "무료",
+    "premium": "프리미엄",
+    "addToCart": "구매",
+    "viewDetails": "세부 정보 보기",
+    "loginRequired": "구매하려면 로그인하세요"
+  },
+  "detail": {
+    "features": "기능",
+    "requirements": "요구 사항",
+    "installation": "설치",
+    "changelog": "변경 로그",
+    "purchase": "지금 구매",
+    "purchased": "이미 구매함",
+    "download": "다운로드",
+    "license": "라이선스 키",
+    "copyLicense": "복사",
+    "copied": "복사됨!",
+    "category": "카테고리",
+    "version": "버전",
+    "framework": "프레임워크",
+    "relatedScripts": "관련 스크립트"
+  },
+  "categories": {
+    "title": "카테고리",
+    "all": "전부",
+    "esx": "ESX 스크립트",
+    "qbcore": "QBCore 스크립트",
+    "standalone": "독립형",
+    "free": "무료 스크립트",
+    "premium": "프리미엄 스크립트",
+    "description": {
+      "esx": "ESX 프레임워크용으로 설계된 스크립트입니다.",
+      "qbcore": "QBCore 프레임워크용으로 설계된 스크립트입니다.",
+      "standalone": "프레임워크와 무관한 스크립트입니다.",
+      "free": "서버용 무료 스크립트입니다.",
+      "premium": "고급 기능이 있는 프리미엄 스크립트입니다."
+    }
+  },
+  "auth": {
+    "loginTitle": "Shiba Scripts에 로그인",
+    "loginDesc": "Discord로 로그인하여 스크립트를 구매하고 라이선스를 관리하세요.",
+    "loginWithDiscord": "Discord로 계속",
+    "loggingIn": "로그인 중...",
+    "logoutConfirm": "로그아웃하시겠습니까?",
+    "unauthorized": "이 페이지에 접속하려면 로그인해야 합니다."
+  },
+  "account": {
+    "title": "내 계정",
+    "profile": "프로필",
+    "purchases": "구매 기록",
+    "licenses": "내 라이선스",
+    "downloads": "다운로드",
+    "noPurchases": "아직 스크립트를 구매하지 않았습니다.",
+    "purchaseDate": "구매 날짜",
+    "licenseKey": "라이선스 키",
+    "status": "상태",
+    "active": "활성",
+    "inactive": "비활성",
+    "downloadBtn": "다운로드"
+  },
+  "support": {
+    "title": "지원",
+    "desc": "도움이 필요하신가요? 우리가 당신을 도와드리겠습니다.",
+    "discord": {
+      "title": "Discord 참여",
+      "desc": "커뮤니티와 팀으로부터 실시간 지원을 받으세요.",
+      "btn": "Discord 참여"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": "스크립트를 어떻게 설치하나요?",
+      "a1": "스크립트를 다운로드하여 resources 폴더에 추출하고, server.cfg에 추가한 후 구성하세요.",
+      "q2": "라이선스는 어떻게 작동하나요?",
+      "a2": "각 구매마다 고유한 라이선스 키가 생성됩니다. 스크립트는 서버 시작 시 이 키를 검증합니다.",
+      "q3": "여러 서버에서 스크립트를 사용할 수 있나요?",
+      "a3": "각 라이선스는 하나의 서버에만 유효합니다. 다중 서버 라이선스를 원하시면 지원팀에 문의하세요.",
+      "q4": "업데이트를 어떻게 받나요?",
+      "a4": "구매 후 업데이트는 계정 페이지에서 다운로드할 수 있습니다."
+    }
+  },
+  "docs": {
+    "title": "문서",
+    "gettingStarted": "시작하기",
+    "installation": "설치 가이드",
+    "licensing": "라이선스 설정",
+    "api": "API 참조",
+    "troubleshooting": "문제 해결"
+  },
+  "admin": {
+    "title": "관리자 패널",
+    "dashboard": "대시보드",
+    "products": "제품",
+    "users": "사용자",
+    "orders": "주문",
+    "addProduct": "제품 추가",
+    "editProduct": "제품 수정",
+    "totalRevenue": "총 수익",
+    "totalOrders": "총 주문",
+    "totalUsers": "총 사용자",
+    "recentOrders": "최근 주문"
+  },
+  "footer": {
+    "tagline": "열정으로 만든 프리미엄 FiveM 스크립트입니다.",
+    "links": "빠른 링크",
+    "legal": "법적 정보",
+    "privacy": "개인 정보 보호 정책",
+    "terms": "서비스 약관",
+    "refund": "환불 정책",
+    "copyright": "© {year} Shiba Scripts. 모든 권리 보유."
+  },
+  "common": {
+    "loading": "로드 중...",
+    "error": "오류가 발생했습니다",
+    "retry": "다시 시도",
+    "back": "뒤로",
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "delete": "삭제",
+    "edit": "수정",
+    "close": "닫기",
+    "language": "언어",
+    "currency": "통화"
+  }
+}

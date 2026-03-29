@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Shiba Scripts - Premium FiveM Scripts",
+    "description": "High-quality FiveM scripts for your server. ESX, QBCore, Standalone scripts with license protection."
+  },
+  "nav": {
+    "home": "Home",
+    "scripts": "Scripts",
+    "categories": "Categories",
+    "support": "Support",
+    "docs": "Docs",
+    "login": "Login",
+    "logout": "Logout",
+    "account": "My Account",
+    "admin": "Admin",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "home": {
+    "hero": {
+      "title": "Premium FiveM Scripts",
+      "subtitle": "High-quality, secure scripts for your FiveM server. Built with love by Shiba Scripts.",
+      "cta": "Browse Scripts",
+      "secondary": "View Docs"
+    },
+    "features": {
+      "title": "Why Shiba Scripts?",
+      "secure": {
+        "title": "License Protected",
+        "desc": "Every script comes with unique license key protection to secure your purchase."
+      },
+      "quality": {
+        "title": "Premium Quality",
+        "desc": "Clean, optimized code following best practices for performance."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "Get help anytime through our Discord community and support system."
+      },
+      "updates": {
+        "title": "Free Updates",
+        "desc": "All scripts receive free updates and improvements after purchase."
+      }
+    },
+    "featured": {
+      "title": "Featured Scripts",
+      "viewAll": "View All Scripts"
+    },
+    "stats": {
+      "scripts": "Scripts",
+      "customers": "Happy Customers",
+      "servers": "Active Servers",
+      "support": "Support Rating"
+    }
+  },
+  "scripts": {
+    "title": "All Scripts",
+    "search": "Search scripts...",
+    "filter": "Filter",
+    "sort": "Sort by",
+    "sortOptions": {
+      "newest": "Newest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "popular": "Most Popular"
+    },
+    "noResults": "No scripts found matching your criteria.",
+    "free": "Free",
+    "premium": "Premium",
+    "addToCart": "Purchase",
+    "viewDetails": "View Details",
+    "loginRequired": "Login to Purchase"
+  },
+  "detail": {
+    "features": "Features",
+    "requirements": "Requirements",
+    "installation": "Installation",
+    "changelog": "Changelog",
+    "purchase": "Purchase Now",
+    "purchased": "Already Purchased",
+    "download": "Download",
+    "license": "Your License Key",
+    "copyLicense": "Copy",
+    "copied": "Copied!",
+    "category": "Category",
+    "version": "Version",
+    "framework": "Framework",
+    "relatedScripts": "Related Scripts"
+  },
+  "categories": {
+    "title": "Categories",
+    "all": "All",
+    "esx": "ESX Scripts",
+    "qbcore": "QBCore Scripts",
+    "standalone": "Standalone",
+    "free": "Free Scripts",
+    "premium": "Premium Scripts",
+    "description": {
+      "esx": "Scripts designed for the ESX framework.",
+      "qbcore": "Scripts designed for the QBCore framework.",
+      "standalone": "Framework-independent scripts.",
+      "free": "Free scripts for your server.",
+      "premium": "Premium scripts with advanced features."
+    }
+  },
+  "auth": {
+    "loginTitle": "Login to Shiba Scripts",
+    "loginDesc": "Sign in with Discord to purchase scripts and manage your licenses.",
+    "loginWithDiscord": "Continue with Discord",
+    "loggingIn": "Logging in...",
+    "logoutConfirm": "Are you sure you want to logout?",
+    "unauthorized": "You must be logged in to access this page."
+  },
+  "account": {
+    "title": "My Account",
+    "profile": "Profile",
+    "purchases": "Purchase History",
+    "licenses": "My Licenses",
+    "downloads": "Downloads",
+    "noPurchases": "You haven't purchased any scripts yet.",
+    "purchaseDate": "Purchase Date",
+    "licenseKey": "License Key",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "downloadBtn": "Download"
+  },
+  "support": {
+    "title": "Support",
+    "desc": "Need help? We're here for you.",
+    "discord": {
+      "title": "Join our Discord",
+      "desc": "Get real-time support from our community and team.",
+      "btn": "Join Discord"
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How do I install a script?",
+      "a1": "Download the script, extract to your resources folder, add to server.cfg, and configure.",
+      "q2": "How does licensing work?",
+      "a2": "Each purchase generates a unique license key. The script validates this key on server start.",
+      "q3": "Can I use a script on multiple servers?",
+      "a3": "Each license is valid for one server. Contact support for multi-server licensing.",
+      "q4": "How do I get updates?",
+      "a4": "Updates are available for download in your account page after purchase."
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "gettingStarted": "Getting Started",
+    "installation": "Installation Guide",
+    "licensing": "License Setup",
+    "api": "API Reference",
+    "troubleshooting": "Troubleshooting"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "users": "Users",
+    "orders": "Orders",
+    "addProduct": "Add Product",
+    "editProduct": "Edit Product",
+    "totalRevenue": "Total Revenue",
+    "totalOrders": "Total Orders",
+    "totalUsers": "Total Users",
+    "recentOrders": "Recent Orders"
+  },
+  "footer": {
+    "tagline": "Premium FiveM scripts built with passion.",
+    "links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "refund": "Refund Policy",
+    "copyright": "© {year} Shiba Scripts. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "language": "Language",
+    "currency": "Currency"
+  }
+}

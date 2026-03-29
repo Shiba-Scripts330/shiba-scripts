@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Shiba Scripts - 优质 FiveM 脚本",
+    "description": "为您的服务器提供高质量的 FiveM 脚本。ESX、QBCore、独立脚本，具有许可证保护。"
+  },
+  "nav": {
+    "home": "主页",
+    "scripts": "脚本",
+    "categories": "分类",
+    "support": "支持",
+    "docs": "文档",
+    "login": "登录",
+    "logout": "登出",
+    "account": "我的账户",
+    "admin": "管理员",
+    "darkMode": "深色模式",
+    "lightMode": "浅色模式"
+  },
+  "home": {
+    "hero": {
+      "title": "优质 FiveM 脚本",
+      "subtitle": "为您的 FiveM 服务器提供高质量、安全的脚本。由 Shiba Scripts 精心打造。",
+      "cta": "浏览脚本",
+      "secondary": "查看文档"
+    },
+    "features": {
+      "title": "为什么选择 Shiba Scripts?",
+      "secure": {
+        "title": "许可证保护",
+        "desc": "每个脚本都配备独特的许可证密钥保护，保护您的购买。"
+      },
+      "quality": {
+        "title": "优质代码",
+        "desc": "遵循最佳实践的清晰、优化代码，性能卓越。"
+      },
+      "support": {
+        "title": "24/7 支持",
+        "desc": "通过我们的 Discord 社区和支持系统随时获得帮助。"
+      },
+      "updates": {
+        "title": "免费更新",
+        "desc": "所有脚本购买后都可享受免费更新和改进。"
+      }
+    },
+    "featured": {
+      "title": "特色脚本",
+      "viewAll": "查看所有脚本"
+    },
+    "stats": {
+      "scripts": "脚本",
+      "customers": "满意客户",
+      "servers": "活跃服务器",
+      "support": "支持评分"
+    }
+  },
+  "scripts": {
+    "title": "所有脚本",
+    "search": "搜索脚本...",
+    "filter": "筛选",
+    "sort": "排序方式",
+    "sortOptions": {
+      "newest": "最新",
+      "priceAsc": "价格：从低到高",
+      "priceDesc": "价格：从高到低",
+      "popular": "最受欢迎"
+    },
+    "noResults": "未找到与您的条件匹配的脚本。",
+    "free": "免费",
+    "premium": "高级",
+    "addToCart": "购买",
+    "viewDetails": "查看详情",
+    "loginRequired": "登录后购买"
+  },
+  "detail": {
+    "features": "功能",
+    "requirements": "需求",
+    "installation": "安装",
+    "changelog": "更新日志",
+    "purchase": "立即购买",
+    "purchased": "已购买",
+    "download": "下载",
+    "license": "您的许可证密钥",
+    "copyLicense": "复制",
+    "copied": "已复制！",
+    "category": "分类",
+    "version": "版本",
+    "framework": "框架",
+    "relatedScripts": "相关脚本"
+  },
+  "categories": {
+    "title": "分类",
+    "all": "全部",
+    "esx": "ESX 脚本",
+    "qbcore": "QBCore 脚本",
+    "standalone": "独立脚本",
+    "free": "免费脚本",
+    "premium": "高级脚本",
+    "description": {
+      "esx": "为 ESX 框架设计的脚本。",
+      "qbcore": "为 QBCore 框架设计的脚本。",
+      "standalone": "独立于框架的脚本。",
+      "free": "为您的服务器提供的免费脚本。",
+      "premium": "具有高级功能的高级脚本。"
+    }
+  },
+  "auth": {
+    "loginTitle": "登录到 Shiba Scripts",
+    "loginDesc": "使用 Discord 登录以购买脚本和管理您的许可证。",
+    "loginWithDiscord": "使用 Discord 继续",
+    "loggingIn": "正在登录...",
+    "logoutConfirm": "您确定要登出吗？",
+    "unauthorized": "您必须登录才能访问此页面。"
+  },
+  "account": {
+    "title": "我的账户",
+    "profile": "个人资料",
+    "purchases": "购买历史",
+    "licenses": "我的许可证",
+    "downloads": "下载",
+    "noPurchases": "您还没有购买任何脚本。",
+    "purchaseDate": "购买日期",
+    "licenseKey": "许可证密钥",
+    "status": "状态",
+    "active": "激活",
+    "inactive": "未激活",
+    "downloadBtn": "下载"
+  },
+  "support": {
+    "title": "支持",
+    "desc": "需要帮助？我们随时为您服务。",
+    "discord": {
+      "title": "加入我们的 Discord",
+      "desc": "从我们的社区和团队获得实时支持。",
+      "btn": "加入 Discord"
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": "如何安装脚本？",
+      "a1": "下载脚本，提取到您的 resources 文件夹，添加到 server.cfg，然后配置。",
+      "q2": "许可证是如何工作的？",
+      "a2": "每次购买都会生成一个唯一的许可证密钥。脚本在服务器启动时验证此密钥。",
+      "q3": "我可以在多个服务器上使用脚本吗？",
+      "a3": "每个许可证仅对一个服务器有效。如需多服务器许可证，请联系支持。",
+      "q4": "如何获取更新？",
+      "a4": "购买后，更新可在您的账户页面上下载。"
+    }
+  },
+  "docs": {
+    "title": "文档",
+    "gettingStarted": "快速开始",
+    "installation": "安装指南",
+    "licensing": "许可证设置",
+    "api": "API 参考",
+    "troubleshooting": "故障排除"
+  },
+  "admin": {
+    "title": "管理面板",
+    "dashboard": "仪表盘",
+    "products": "产品",
+    "users": "用户",
+    "orders": "订单",
+    "addProduct": "添加产品",
+    "editProduct": "编辑产品",
+    "totalRevenue": "总收入",
+    "totalOrders": "总订单",
+    "totalUsers": "总用户",
+    "recentOrders": "最近订单"
+  },
+  "footer": {
+    "tagline": "由热情打造的优质 FiveM 脚本。",
+    "links": "快速链接",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "refund": "退款政策",
+    "copyright": "© {year} Shiba Scripts。版权所有。"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试",
+    "back": "返回",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "language": "语言",
+    "currency": "货币"
+  }
+}

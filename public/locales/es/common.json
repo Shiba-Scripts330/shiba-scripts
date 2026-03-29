@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Shiba Scripts - Scripts FiveM Premium",
+    "description": "Scripts FiveM de alta calidad para tu servidor. ESX, QBCore, scripts independientes con protección de licencia."
+  },
+  "nav": {
+    "home": "Inicio",
+    "scripts": "Scripts",
+    "categories": "Categorías",
+    "support": "Soporte",
+    "docs": "Documentación",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "account": "Mi Cuenta",
+    "admin": "Administrador",
+    "darkMode": "Modo Oscuro",
+    "lightMode": "Modo Claro"
+  },
+  "home": {
+    "hero": {
+      "title": "Scripts FiveM Premium",
+      "subtitle": "Scripts seguros y de alta calidad para tu servidor FiveM. Creados con pasión por Shiba Scripts.",
+      "cta": "Explorar Scripts",
+      "secondary": "Ver Documentación"
+    },
+    "features": {
+      "title": "¿Por qué elegir Shiba Scripts?",
+      "secure": {
+        "title": "Protección de Licencia",
+        "desc": "Cada script viene con protección de clave de licencia única para asegurar tu compra."
+      },
+      "quality": {
+        "title": "Calidad Premium",
+        "desc": "Código limpio y optimizado siguiendo mejores prácticas para máximo desempeño."
+      },
+      "support": {
+        "title": "Soporte 24/7",
+        "desc": "Obtén ayuda en cualquier momento a través de nuestra comunidad Discord y sistema de soporte."
+      },
+      "updates": {
+        "title": "Actualizaciones Gratis",
+        "desc": "Todos los scripts reciben actualizaciones y mejoras gratuitas después de la compra."
+      }
+    },
+    "featured": {
+      "title": "Scripts Destacados",
+      "viewAll": "Ver Todos los Scripts"
+    },
+    "stats": {
+      "scripts": "Scripts",
+      "customers": "Clientes Satisfechos",
+      "servers": "Servidores Activos",
+      "support": "Calificación de Soporte"
+    }
+  },
+  "scripts": {
+    "title": "Todos los Scripts",
+    "search": "Buscar scripts...",
+    "filter": "Filtrar",
+    "sort": "Ordenar por",
+    "sortOptions": {
+      "newest": "Más Nuevo",
+      "priceAsc": "Precio: Menor a Mayor",
+      "priceDesc": "Precio: Mayor a Menor",
+      "popular": "Más Popular"
+    },
+    "noResults": "No se encontraron scripts que coincidan con tus criterios.",
+    "free": "Gratis",
+    "premium": "Premium",
+    "addToCart": "Comprar",
+    "viewDetails": "Ver Detalles",
+    "loginRequired": "Inicia sesión para Comprar"
+  },
+  "detail": {
+    "features": "Características",
+    "requirements": "Requisitos",
+    "installation": "Instalación",
+    "changelog": "Historial de Cambios",
+    "purchase": "Comprar Ahora",
+    "purchased": "Ya Comprado",
+    "download": "Descargar",
+    "license": "Tu Clave de Licencia",
+    "copyLicense": "Copiar",
+    "copied": "¡Copiado!",
+    "category": "Categoría",
+    "version": "Versión",
+    "framework": "Framework",
+    "relatedScripts": "Scripts Relacionados"
+  },
+  "categories": {
+    "title": "Categorías",
+    "all": "Todos",
+    "esx": "Scripts ESX",
+    "qbcore": "Scripts QBCore",
+    "standalone": "Independientes",
+    "free": "Scripts Gratis",
+    "premium": "Scripts Premium",
+    "description": {
+      "esx": "Scripts diseñados para el framework ESX.",
+      "qbcore": "Scripts diseñados para el framework QBCore.",
+      "standalone": "Scripts independientes del framework.",
+      "free": "Scripts gratuitos para tu servidor.",
+      "premium": "Scripts premium con características avanzadas."
+    }
+  },
+  "auth": {
+    "loginTitle": "Inicia Sesión en Shiba Scripts",
+    "loginDesc": "Inicia sesión con Discord para comprar scripts y gestionar tus licencias.",
+    "loginWithDiscord": "Continuar con Discord",
+    "loggingIn": "Iniciando sesión...",
+    "logoutConfirm": "¿Estás seguro de que deseas cerrar sesión?",
+    "unauthorized": "Debes iniciar sesión para acceder a esta página."
+  },
+  "account": {
+    "title": "Mi Cuenta",
+    "profile": "Perfil",
+    "purchases": "Historial de Compras",
+    "licenses": "Mis Licencias",
+    "downloads": "Descargas",
+    "noPurchases": "Aún no has comprado ningún script.",
+    "purchaseDate": "Fecha de Compra",
+    "licenseKey": "Clave de Licencia",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "downloadBtn": "Descargar"
+  },
+  "support": {
+    "title": "Soporte",
+    "desc": "¿Necesitas ayuda? Estamos aquí para ti.",
+    "discord": {
+      "title": "Únete a Nuestro Discord",
+      "desc": "Obtén soporte en tiempo real de nuestra comunidad y equipo.",
+      "btn": "Unirse a Discord"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Cómo instalo un script?",
+      "a1": "Descarga el script, extrae a tu carpeta resources, añade a server.cfg y configura.",
+      "q2": "¿Cómo funciona la licencia?",
+      "a2": "Cada compra genera una clave de licencia única. El script valida esta clave al iniciar el servidor.",
+      "q3": "¿Puedo usar un script en múltiples servidores?",
+      "a3": "Cada licencia es válida para un servidor. Contacta a soporte para licencias multi-servidor.",
+      "q4": "¿Cómo obtengo actualizaciones?",
+      "a4": "Las actualizaciones están disponibles para descargar en tu página de cuenta después de la compra."
+    }
+  },
+  "docs": {
+    "title": "Documentación",
+    "gettingStarted": "Primeros Pasos",
+    "installation": "Guía de Instalación",
+    "licensing": "Configuración de Licencia",
+    "api": "Referencia de API",
+    "troubleshooting": "Solución de Problemas"
+  },
+  "admin": {
+    "title": "Panel de Administrador",
+    "dashboard": "Panel de Control",
+    "products": "Productos",
+    "users": "Usuarios",
+    "orders": "Pedidos",
+    "addProduct": "Añadir Producto",
+    "editProduct": "Editar Producto",
+    "totalRevenue": "Ingresos Totales",
+    "totalOrders": "Total de Pedidos",
+    "totalUsers": "Total de Usuarios",
+    "recentOrders": "Pedidos Recientes"
+  },
+  "footer": {
+    "tagline": "Scripts FiveM premium creados con pasión.",
+    "links": "Enlaces Rápidos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "refund": "Política de Reembolso",
+    "copyright": "© {year} Shiba Scripts. Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "retry": "Reintentar",
+    "back": "Atrás",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "language": "Idioma",
+    "currency": "Moneda"
+  }
+}

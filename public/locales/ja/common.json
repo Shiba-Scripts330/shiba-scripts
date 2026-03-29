@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Shiba Scripts - プレミアム FiveM スクリプト",
+    "description": "高品質なFiveMスクリプト。ESX、QBCore、スタンドアロン対応。ライセンス保護付き。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "scripts": "スクリプト",
+    "categories": "カテゴリー",
+    "support": "サポート",
+    "docs": "ドキュメント",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "account": "マイページ",
+    "admin": "管理画面",
+    "darkMode": "ダークモード",
+    "lightMode": "ライトモード"
+  },
+  "home": {
+    "hero": {
+      "title": "プレミアム FiveM スクリプト",
+      "subtitle": "高品質で安全なFiveMサーバー向けスクリプト。Shiba Scriptsが心を込めてお届けします。",
+      "cta": "スクリプト一覧",
+      "secondary": "ドキュメントを見る"
+    },
+    "features": {
+      "title": "Shiba Scriptsの特徴",
+      "secure": {
+        "title": "ライセンス保護",
+        "desc": "すべてのスクリプトにユニークなライセンスキー保護が付いています。"
+      },
+      "quality": {
+        "title": "高品質",
+        "desc": "パフォーマンス最適化されたクリーンなコード。"
+      },
+      "support": {
+        "title": "24時間サポート",
+        "desc": "Discordコミュニティとサポートシステムでいつでもお手伝い。"
+      },
+      "updates": {
+        "title": "無料アップデート",
+        "desc": "購入後のアップデートと改善は無料です。"
+      }
+    },
+    "featured": {
+      "title": "おすすめスクリプト",
+      "viewAll": "すべてのスクリプトを見る"
+    },
+    "stats": {
+      "scripts": "スクリプト数",
+      "customers": "お客様数",
+      "servers": "稼働サーバー数",
+      "support": "サポート評価"
+    }
+  },
+  "scripts": {
+    "title": "全スクリプト",
+    "search": "スクリプトを検索...",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "sortOptions": {
+      "newest": "新着順",
+      "priceAsc": "価格：安い順",
+      "priceDesc": "価格：高い順",
+      "popular": "人気順"
+    },
+    "noResults": "条件に一致するスクリプトが見つかりませんでした。",
+    "free": "無料",
+    "premium": "プレミアム",
+    "addToCart": "購入する",
+    "viewDetails": "詳細を見る",
+    "loginRequired": "購入にはログインが必要です"
+  },
+  "detail": {
+    "features": "機能",
+    "requirements": "動作要件",
+    "installation": "インストール",
+    "changelog": "更新履歴",
+    "purchase": "今すぐ購入",
+    "purchased": "購入済み",
+    "download": "ダウンロード",
+    "license": "ライセンスキー",
+    "copyLicense": "コピー",
+    "copied": "コピーしました！",
+    "category": "カテゴリー",
+    "version": "バージョン",
+    "framework": "フレームワーク",
+    "relatedScripts": "関連スクリプト"
+  },
+  "categories": {
+    "title": "カテゴリー",
+    "all": "すべて",
+    "esx": "ESX スクリプト",
+    "qbcore": "QBCore スクリプト",
+    "standalone": "スタンドアロン",
+    "free": "無料スクリプト",
+    "premium": "プレミアムスクリプト",
+    "description": {
+      "esx": "ESXフレームワーク向けのスクリプト。",
+      "qbcore": "QBCoreフレームワーク向けのスクリプト。",
+      "standalone": "フレームワーク非依存のスクリプト。",
+      "free": "無料で使えるスクリプト。",
+      "premium": "高度な機能を持つプレミアムスクリプト。"
+    }
+  },
+  "auth": {
+    "loginTitle": "Shiba Scriptsにログイン",
+    "loginDesc": "Discordでログインして、スクリプトの購入とライセンス管理を行えます。",
+    "loginWithDiscord": "Discordでログイン",
+    "loggingIn": "ログイン中...",
+    "logoutConfirm": "ログアウトしますか？",
+    "unauthorized": "このページにアクセスするにはログインが必要です。"
+  },
+  "account": {
+    "title": "マイページ",
+    "profile": "プロフィール",
+    "purchases": "購入履歴",
+    "licenses": "ライセンス一覧",
+    "downloads": "ダウンロード",
+    "noPurchases": "まだスクリプトを購入していません。",
+    "purchaseDate": "購入日",
+    "licenseKey": "ライセンスキー",
+    "status": "ステータス",
+    "active": "有効",
+    "inactive": "無効",
+    "downloadBtn": "ダウンロード"
+  },
+  "support": {
+    "title": "サポート",
+    "desc": "お困りですか？お手伝いします。",
+    "discord": {
+      "title": "Discordに参加",
+      "desc": "コミュニティとチームからリアルタイムサポートを受けられます。",
+      "btn": "Discordに参加"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": "スクリプトのインストール方法は？",
+      "a1": "ダウンロード後、resourcesフォルダに展開し、server.cfgに追加して設定してください。",
+      "q2": "ライセンスの仕組みは？",
+      "a2": "購入ごとにユニークなライセンスキーが生成されます。サーバー起動時にキーが検証されます。",
+      "q3": "複数のサーバーで使えますか？",
+      "a3": "各ライセンスは1サーバー有効です。マルチサーバーライセンスについてはサポートにお問い合わせください。",
+      "q4": "アップデートの取得方法は？",
+      "a4": "購入後、マイページからアップデートをダウンロードできます。"
+    }
+  },
+  "docs": {
+    "title": "ドキュメント",
+    "gettingStarted": "はじめに",
+    "installation": "インストールガイド",
+    "licensing": "ライセンス設定",
+    "api": "APIリファレンス",
+    "troubleshooting": "トラブルシューティング"
+  },
+  "admin": {
+    "title": "管理画面",
+    "dashboard": "ダッシュボード",
+    "products": "商品管理",
+    "users": "ユーザー管理",
+    "orders": "注文管理",
+    "addProduct": "商品追加",
+    "editProduct": "商品編集",
+    "totalRevenue": "総売上",
+    "totalOrders": "総注文数",
+    "totalUsers": "総ユーザー数",
+    "recentOrders": "最近の注文"
+  },
+  "footer": {
+    "tagline": "情熱を込めて作られたプレミアムFiveMスクリプト。",
+    "links": "クイックリンク",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "refund": "返金ポリシー",
+    "copyright": "© {year} Shiba Scripts. All rights reserved."
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "back": "戻る",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "language": "言語",
+    "currency": "通貨"
+  }
+}

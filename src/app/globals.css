@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables */
+:root {
+  --shiba-main: #C68642;
+  --shiba-black: #1A1A1A;
+  --shiba-bg: #F5F5F5;
+  --shiba-accent: #FFB347;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+/* Smooth scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C68642;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB347;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #FFB347;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #C68642;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-color: #C68642 #f1f1f1;
+  scrollbar-width: thin;
+}
+
+.dark {
+  scrollbar-color: #FFB347 #1a1a1a;
+}
+
+/* Smooth transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode transitions */
+.dark {
+  color-scheme: dark;
+}
+
+/* Code block styling */
+pre {
+  @apply bg-gray-900 dark:bg-gray-950 rounded-lg p-4 overflow-x-auto border border-gray-800 dark:border-gray-700;
+}
+
+code {
+  @apply bg-gray-100 dark:bg-gray-900 px-2 py-1 rounded text-sm font-mono text-gray-800 dark:text-gray-200;
+}
+
+pre code {
+  @apply bg-transparent px-0 py-0;
+}
+
+/* Selection colors */
+::selection {
+  @apply bg-shiba-main text-white dark:bg-shiba-accent dark:text-shiba-black;
+}
+
+::-moz-selection {
+  @apply bg-shiba-main text-white dark:bg-shiba-accent dark:text-shiba-black;
+}
+
+/* Link styling */
+a {
+  @apply transition-colors;
+}
+
+/* Button styling */
+button {
+  @apply transition-all duration-300;
+}
+
+/* Input styling */
+input,
+textarea,
+select {
+  @apply transition-colors;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(198, 134, 66, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(198, 134, 66, 0.8);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.6s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Form styling */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+textarea,
+select {
+  @apply px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-shiba-main dark:focus:ring-shiba-accent;
+}
+
+input:disabled,
+textarea:disabled,
+select:disabled {
+  @apply bg-gray-100 dark:bg-gray-800 cursor-not-allowed;
+}
+
+/* Table styling */
+table {
+  @apply w-full border-collapse;
+}
+
+th {
+  @apply bg-gray-100 dark:bg-gray-900 px-4 py-3 text-left font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-700;
+}
+
+td {
+  @apply px-4 py-3 border-b border-gray-200 dark:border-gray-800;
+}
+
+/* Badge styling */
+.badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold;
+}
+
+.badge-primary {
+  @apply bg-shiba-main text-white;
+}
+
+.badge-secondary {
+  @apply bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white;
+}
+
+.badge-success {
+  @apply bg-green-500 text-white;
+}
+
+.badge-error {
+  @apply bg-red-500 text-white;
+}
+
+/* Card shadow effect */
+.card-shadow {
+  @apply shadow-md hover:shadow-lg transition-shadow duration-300;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-shiba-main via-shiba-accent to-shiba-main bg-clip-text text-transparent;
+}
+
+/* Container queries support */
+@supports (container-type: inline-size) {
+  @container (min-width: 400px) {
+    .container-sm {
+      @apply block;
+    }
+  }
+}
